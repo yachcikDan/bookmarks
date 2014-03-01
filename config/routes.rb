@@ -1,9 +1,5 @@
 Bookmarks::Application.routes.draw do
   get "bookmarks/index"
-  get "bookmarks/edit"
-  get "bookmarks/_form"
-  get "bookmarks/new"
-  get "bookmarks/show"
   resources :bookmarks
 
   # The priority is based upon order of creation: first created -> highest priority.
