@@ -1,10 +1,5 @@
 Bookmarks::Application.routes.draw do
   root "bookmarks#index"
-  get "/bookmarks/1"
-  get "/bookmarks/new"
-  get "/bookmarks/1/edit"
- 
-  
   resources :bookmarks
 
   # The priority is based upon order of creation: first created -> highest priority.
