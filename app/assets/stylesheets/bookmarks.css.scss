@@ -2,26 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#container {
+html {
+	
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
+
+.navbar {
 	background-color: #FF944D;
 	height: 10em;
-	border: solid;
 }
 
 #title {
-	color: white;
-	padding-top: 15px;
+	color: black;
+	padding-top: 40px;
 	padding-left: 10px;
 	font-size: 30pt;
 }
 
-#navlist {
-	float: right;
-	color: white;
+.nav li {
+	display: inline;
 }
 
-.headerLinks {
-  color: #fff;
-  display: inline;
-  padding-right: 10px;
+.nav > li > a {
+	float: right;;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
 }
